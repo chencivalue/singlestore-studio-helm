@@ -9,8 +9,8 @@ All available input is documented inside of the [values.yaml](charts/values.yaml
 ## Installing\Upgrading the Helm chart
 
 ```shell
-helm repo add chenmey85 
+helm repo add chenmey https://raw.githubusercontent.com/chencivalue/singlestore-studio-helm/main/charts/archives
 helm repo update
-helm upgrade -i . singlestore-studio chenmey85/singlestore-studio
+helm upgrade -i . singlestore-studio chenmey/singlestore-studio
 ```
 _See [helm repo](https://helm.sh/docs/helm/helm_repo/) for command documentation._
