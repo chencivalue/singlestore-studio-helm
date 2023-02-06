@@ -4,7 +4,7 @@
 
 Make sure you have Helm [installed](https://helm.sh/docs/using_helm/#installing-helm).
 
-All available input is documented inside of the [values.yaml](charts/values.yaml) file.
+All available input is documented inside of the [values.yaml](charts/singlestore-studio/values.yaml) file.
 
 ## Installing\Upgrading the Helm chart
 
